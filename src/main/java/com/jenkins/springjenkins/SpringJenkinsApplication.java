@@ -19,6 +19,7 @@ public class SpringJenkinsApplication {
 
     public static void main(String[] args) {
         LOG.info("Application executed...");
+        LOG.info("Application executed...");
         SpringApplication.run(SpringJenkinsApplication.class, args);
     }
 

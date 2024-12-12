@@ -14,7 +14,7 @@ public class SpringJenkinsApplication {
     // add a post-construct method
     @PostConstruct
     public void init(){
-        LOG.info("Application started...");
+        LOG.info("Application started on dev branch...");
     }
 
     public static void main(String[] args) {
